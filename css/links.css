@@ -1,0 +1,30 @@
+/*Links*/
+.links{                  
+    text-align: center;
+    background-color: var(--secondary-color);        
+}
+
+.links__box{    
+    display: grid;
+    padding: 1em;
+    justify-content: center;
+    grid-template-columns: repeat(2, 5em);
+    grid-template-rows: repeat(1, 5em);
+    gap: 1em;
+}
+
+.links__box--small i{
+    color: var(--third-color);
+    font-size: 3em;
+}
+
+.links__box--small a{
+    text-decoration: none;
+}
+
+@media screen and (min-width: 1200px) {
+    .links{
+        width: 20vw;
+    }
+    
+}

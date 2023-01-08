@@ -1,0 +1,126 @@
+/*Portfolio*/
+.portfolio{        
+    padding: 2em 0em;
+    text-align: center;
+
+}
+
+.portfolio__card{
+    margin: 1em ;
+    padding: 0.5em 0em;        
+    font-size: 1.2em;
+    border-radius: 15px;    
+    overflow: hidden;    
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s; 
+}
+
+.portfolio__card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+
+.portfolio__title{    
+    font-size: 2em;
+    margin-bottom: 1em;
+    text-transform: uppercase;
+}
+
+.portfolio__img{       
+    width: 15.5em;    
+    border-radius: 0.5em; 
+}
+
+.portfolio__project-title{
+    padding: 0.2em 0em;
+    font-size: 1.5em;
+    font-weight: 700;
+}
+
+.portfolio__card--stack{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.2em 0em 0.8em 0em;
+}
+
+.portfolio__card--stack-description{
+    display: flex;    
+    font-size: 0.5em;
+    margin-right: 0.5em;
+    padding: 0.5em 1em;
+    border-radius: 2em;
+    border: 0.5px solid;
+}
+
+
+.portfolio__card--stack-description p{
+    padding-left: 0.5em ;
+}
+
+
+.portfolio__project-text{
+    font-size: 1em;    
+    padding: 1em;
+}
+
+.portfolio__button{    
+    display: flex;
+    justify-content:center;
+    margin: 1em;
+}
+
+.portfolio__button a {       
+    font-size: 0.7em;        
+    text-decoration: none;
+    text-transform: uppercase;          
+}
+
+.portfolio__button--style{
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+    width: 8em;
+    margin: 1em 0.5em;
+    padding: 1em;        
+    border-radius: 5px;
+    color: var(--primary-color);
+    background-color: var(--third-color);
+}
+
+.portfolio__button--style p{
+    padding: 0 0.5em;
+}
+
+@media screen and (min-width: 1200px) {
+    .portfolio_container{
+        display: flex;
+
+    }
+
+    .portfolio__card{
+        width: 30vw;
+    }
+
+    .portfolio__img{
+        width: 30vw;        
+        height: 30vh;
+        border-radius: 0;
+    }
+
+    .portfolio__project-title .portfolio__card--stack{
+        width: 25vw;        
+        height: 5vh;
+    }
+    
+    .portfolio__project-text {
+        width: 25vw;        
+        height: 15vh;
+    }
+
+    .portfolio__button{
+        width: 25vw;        
+        height: 10vh;
+    }
+
+}

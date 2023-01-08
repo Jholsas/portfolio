@@ -1,0 +1,9 @@
+.wave-top{    
+    
+    transform: translateY(1em);
+}
+
+.wave-bottom{
+    
+    transform: translateY(0em);
+}
