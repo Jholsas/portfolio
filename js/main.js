@@ -1,3 +1,5 @@
-import initMenuMobile from "./modules/menu-mobile.js";
 
-initMenuMobile();
+import initMenuModal from "./modules/menu-modal.js";
+
+
+initMenuModal();

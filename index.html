@@ -1,320 +1,385 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="João Dos Santos Silva" />
+    <meta name="description" content="João Dos Santos Silva's portfolio." />
+    <title>João Dos Santos Silva</title>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+    <link rel="icon" href="./img/logo.png" />
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <script
+      src="https://kit.fontawesome.com/1102d7f4b7.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="author" content="João Dos Santos Silva" />
-  <meta name="description" content="João Dos Santos Silva's portfolio." />
-  <title>João Dos Santos Silva</title>
-  <link rel="stylesheet"
-    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
-  <link rel="icon" href="./img/logo.png" />
-  <link rel="stylesheet" href="./css/reset.css" />
-  <link rel="stylesheet" href="./css/style.css" />
-  <script src="https://kit.fontawesome.com/1102d7f4b7.js" crossorigin="anonymous"></script>
-</head>
+  <body>
+    <header id="header">
+      <div class="header">
+        <a href="#" class="header__logo">JS</a>
 
-<body>
-  <header id="header">
-    <div class="header">
-      <span class="header__logo">JS</span>
-      <i class="header__menu material-symbols-outlined side__menu--icon">menu</i>
-      <nav class="side__menu">
-        <a class="side__menu--link" href="#about">About</a>
-        <a class="side__menu--link" href="#portfolio">Portfolio</a>
-        <a class="side__menu--link" href="#contact">Contact</a>
-      </nav>
-    </div>
-  </header>
-
-  <main>
-    <section class="home" id="home">
-      <dir class="home__container">
-        <div class="home__photo">
-          <img class="principal__photo" src="./img/photo.png" alt="A Joao's photo" />
-        </div>
-        <div class="home__text">
-          <h1 class="principal__title">
-            Hi, I'm João Silva, <br />
-            and I'm a Software Developer.
-          </h1>
-          <div class="principal__button">
-            <a href="#contact">
-              <dir class="principal__button--style">
-                <p>LET'S TALK</p>
-              </dir>
-            </a>
-          </div>
-        </div>
-      </dir>
-    </section>
-
-    <svg class="wave-top" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-      <path fill="#f9f8f8" fill-opacity="1"
-        d="M0,0L60,10.7C120,21,240,43,360,74.7C480,107,600,149,720,144C840,139,960,85,1080,69.3C1200,53,1320,75,1380,85.3L1440,96L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z">
-      </path>
-    </svg>
-
-    <section class="about-skills">
-      <div class="about" id="about">
-        <div>
-          <h2 class="about__title">About</h2>
-        </div>
-        <div class="card_container">
-          <article class="card">
-            <p class="card__text">
-              I'm Joao Silva, Software Engineer and I currently live in
-              Canada.
-            </p>
-            <br />
-            <p class="card__text">
-              I worked for over eight years as a developer and consultant
-              specializing in ERP Protheus - TOTVS. I am currently in a career
-              transition to a web developer.
-            </p>
-            <br />
-            <p class="card__text">
-              I have a bachelor's degree in Computer Science from the
-              Universidade Nove de Julio in São Paulo - Brazil.
-            </p>
-            <br />
-            <p class="card__text">
-              In December/2022, I graduated from the Computer Programmer
-              course at Lambton College - Canada.
-            </p>
-            <br />
-            <p class="card__text">
-              But I keep studying new technologies because keeping in mind
-              that we are in constant learning.
-            </p>
-            <br />
-          </article>
-        </div>
-      </div>
-      <div class="skills" id="skills">
-        <div>
-          <h2 class="skills__title">skills</h2>
-        </div>
-        <div class="skills__box">
-          <div class="skills__box--small">
-            <i class="fa-brands fa-html5"></i>
-            <p>HTML5</p>
-          </div>
-          <div class="skills__box--small">
-            <i class="fa-brands fa-css3-alt"></i>
-            <p>CSS3</p>
-          </div>
-          <div class="skills__box--small">
-            <i class="fa-brands fa-bootstrap"></i>
-            <p>Bootstrap</p>
-          </div>
-          <div class="skills__box--small">
-            <i class="fa-brands fa-square-js"></i>
-            <p>JavaScript</p>
-          </div>
-          <div class="skills__box--small">
-            <i class="fa-brands fa-react"></i>
-            <p>React</p>
-          </div>
-          <div class="skills__box--small">
-            <i class="fa-brands fa-angular"></i>
-            <p>Angular</p>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <svg class="wave-bottom" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-        
-      <path fill="#f9f8f8" fill-opacity="1"
-        d="M0,0L60,10.7C120,21,240,43,360,74.7C480,107,600,149,720,144C840,139,960,85,1080,69.3C1200,53,1320,75,1380,85.3L1440,96L1440,0L1380,0C1320,0,1200,0,1080,0C960,0,840,0,720,0C600,0,480,0,360,0C240,0,120,0,60,0L0,0Z">
-      </path>
-    </svg>
-
-    <section class="portfolio" id="portfolio">
-      <div>
-        <div>
-          <h2 class="portfolio__title">Portfolio</h2>
-        </div>
-      </div>
-      <div class="portfolio_container">
-        <!--Project 1-->
-        <div class="portfolio__card">
-          <a href="https://book-store-jholsas.vercel.app/">
-            <img class="portfolio__img" src="./img/book_store.png" alt="Alura combo website project" />
-          </a> 
-          <h3 class="portfolio__project-title">Books Store</h3>
-          <div class="portfolio__card--stack">
-            <div class="portfolio__card--stack-description">
-              <i class="fa-brands fa-html5"></i>
-              <p>HTML5</p>
-            </div>
-            <div class="portfolio__card--stack-description">
-              <i class="fa-brands fa-css3-alt"></i>
-              <p>CSS3</p>
-            </div>
-          </div>
-          <p class="portfolio__project-text">
-            In this project, an e-commerce site was created for Alura Books,
-            an online technology bookstore. Using the mobile first methodology
-            and using a Figma project as a basis. This landing page is
-            designed for Smartphones, Tablets and Desktops.
-          </p>
-          <div class="portfolio__button">
-            <a href="https://book-store-jholsas.vercel.app/">
-              <dir class="portfolio__button--style">
-                <i class="fa-solid fa-arrow-up-right-from-square"></i>
-                <p>live</p>
-              </dir>
-            </a>
-            <a href="https://github.com/Jholsas/book_store">
-              <dir class="portfolio__button--style">
-                <i class="fa-brands fa-github"></i>
-                <p>source</p>
-              </dir>
-            </a>
-          </div>
-        </div>
-
-        <!--Project 2-->
-        <div class="portfolio__card">
-          <a href="https://robotron-jholsas.vercel.app/">
-            <img class="portfolio__img" src="./img/webpage_js.png" alt="Alura combo website project" />
-          </a>
-          <h3 class="portfolio__project-title">webpage with JS</h3>
-          <div class="portfolio__card--stack">
-            <div class="portfolio__card--stack-description">
-              <i class="fa-brands fa-html5"></i>
-              <p>HTML5</p>
-            </div>
-            <div class="portfolio__card--stack-description">
-              <i class="fa-brands fa-css3-alt"></i>
-              <p>CSS3</p>
-            </div>
-            <div class="portfolio__card--stack-description">
-              <i class="fa-brands fa-square-js"></i>
-              <p>JAVASCRIPT</p>
-            </div>
-          </div>
-          <p class="portfolio__project-text">
-            A webpage where I was training JavaScript concepts. A landing page
-            is designed for desktops.
-          </p>
-          <div class="portfolio__button">
-            <a href="https://robotron-jholsas.vercel.app/">
-              <dir class="portfolio__button--style">
-                <i class="fa-solid fa-arrow-up-right-from-square"></i>
-                <p>live</p>
-              </dir>
-            </a>
-            <a href="https://github.com/Jholsas/robotron">
-              <dir class="portfolio__button--style">
-                <i class="fa-brands fa-github"></i>
-                <p>source</p>
-              </dir>
-            </a>
-          </div>
-        </div>
-
-        <!--Project 3-->
-        <div class="portfolio__card">
-          <a href="https://aluraplus-jholsas.vercel.app/">
-            <img class="portfolio__img" src="./img/promo_page.png" alt="Alura combo website project" />
-          </a>  
-          <h3 class="portfolio__project-title">Webpage</h3>
-          <div class="portfolio__card--stack">
-            <div class="portfolio__card--stack-description">
-              <i class="fa-brands fa-html5"></i>
-              <p>HTML5</p>
-            </div>
-            <div class="portfolio__card--stack-description">
-              <i class="fa-brands fa-css3-alt"></i>
-              <p>CSS3</p>
-            </div>
-          </div>
-          <p class="portfolio__project-text">
-            A website to promote Alura Plus, a streaming platform with Alura's
-            educational content. In this project, create a homepage of a Figma
-            project. A landing page is designed for desktops.
-          </p>
-          <div class="portfolio__button">
-            <a href="https://aluraplus-jholsas.vercel.app/">
-              <dir class="portfolio__button--style">
-                <i class="fa-solid fa-arrow-up-right-from-square"></i>
-                <p>live</p>
-              </dir>
-            </a>
-            <a href="https://github.com/Jholsas/website_promote">
-              <dir class="portfolio__button--style">
-                <i class="fa-brands fa-github"></i>
-                <p>source</p>
-              </dir>
-            </a>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <svg class="wave-top" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-      <path fill="#f9f8f8" fill-opacity="1"
-        d="M0,0L60,10.7C120,21,240,43,360,74.7C480,107,600,149,720,144C840,139,960,85,1080,69.3C1200,53,1320,75,1380,85.3L1440,96L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z">
-      </path>
-    </svg>
-
-    <section class="contact_links">
-      <div class="contact" id="contact">
-        <div>
-          <h2 class="contact__title">contact</h2>
-        </div>
-        <div class="card_container">
-          <div class="contact__card">
-            <p contact__text>
-              Feel free to contact me. I will be delighted to hear from you. Whether you have questions or want to chat
-              about software development and tech, shoot me a message.
-            </p>
-            <button class="contact__email-btn">
-              <a href="mailto: jholsas@gmail.com">jholsas@gmail.com</a>
+        <!--Menu-Modal-->
+        <button class="header__menu" id="open-modal">
+          <i class="material-symbols-outlined side__menu--icon">menu</i>
+        </button>
+        <div class="hide" id="fade"></div>
+        <div class="hide" id="modal">
+          <div class="modal__header">
+            <button id="close-modal">
+              <i class="fa-solid fa-xmark "></i>
             </button>
           </div>
+          <nav class="modal__body">            
+              <a class="side__menu--link" href="#about">About</a>
+              <a class="side__menu--link" href="#portfolio">Portfolio</a>
+              <a class="side__menu--link" href="#contact">Contact</a>            
+          </nav>          
+          <div class="modal__footer">
+            <div class="modal__footer__container">
+              <p>
+                Made with <i class="fa-solid fa-heart"></i> and
+                <i class="fa-solid fa-mug-hot"></i>, João Silva.
+              </p>
+              <p>Copyright<i class="fa-regular fa-copyright"></i>2023.</p>
+            </div>
+          </div> 
         </div>
+
+        <nav class="side__menu">            
+          <a class="side__menu--link" href="#about">About</a>
+          <a class="side__menu--link" href="#portfolio">Portfolio</a>
+          <a class="side__menu--link" href="#contact">Contact</a>            
+        </nav>  
+
       </div>
-      <div class="links" id="links">
-        <div class="links__box">
-          <div class="links__box--small">
-            <a href="https://www.linkedin.com/in/joao-dos-santos-silva/">
-              <i class="fa-brands fa-linkedin"></i>
-              <p>LinkedIn</p>
-            </a>
+    </header>
+
+    <main>
+      <section class="home" id="home">
+        <dir class="home__container">
+          <div class="home__photo">
+            <img
+              class="principal__photo"
+              src="./img/photo.png"
+              alt="A Joao's photo"
+            />
           </div>
-          <div class="links__box--small">
-            <a href="https://github.com/Jholsas">
-              <i class="fa-brands fa-github"></i>
-              <p>GitHub</p>
-            </a>
+          <div class="home__text">
+            <h1 class="principal__title">
+              Hi, I'm João Silva, <br />
+              and I'm a Software Developer.
+            </h1>
+            <div class="principal__button">
+              <a href="#contact">
+                <dir class="principal__button--style">
+                  <p>LET'S TALK</p>
+                </dir>
+              </a>
+            </div>
+          </div>
+        </dir>
+      </section>
+
+      <svg
+        class="wave-top"
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 1440 320"
+      >
+        <path
+          fill="#f9f8f8"
+          fill-opacity="1"
+          d="M0,0L60,10.7C120,21,240,43,360,74.7C480,107,600,149,720,144C840,139,960,85,1080,69.3C1200,53,1320,75,1380,85.3L1440,96L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z"
+        ></path>
+      </svg>
+
+      <section class="about-skills">
+        <div class="about" id="about">
+          <div>
+            <h2 class="about__title">About</h2>
+          </div>
+          <div class="card_container">
+            <article class="card">
+              <p class="card__text">
+                I'm Joao Silva, Software Engineer and I currently live in
+                Canada.
+              </p>
+              <br />
+              <p class="card__text">
+                I worked for over eight years as a developer and consultant
+                specializing in ERP Protheus - TOTVS. I am currently in a career
+                transition to a web developer.
+              </p>
+              <br />
+              <p class="card__text">
+                I have a bachelor's degree in Computer Science from the
+                Universidade Nove de Julio in São Paulo - Brazil.
+              </p>
+              <br />
+              <p class="card__text">
+                In December/2022, I graduated from the Computer Programmer
+                course at Lambton College - Canada.
+              </p>
+              <br />
+              <p class="card__text">
+                But I keep studying new technologies because keeping in mind
+                that we are in constant learning.
+              </p>
+              <br />
+            </article>
           </div>
         </div>
+        <div class="skills" id="skills">
+          <div>
+            <h2 class="skills__title">skills</h2>
+          </div>
+          <div class="skills__box">
+            <div class="skills__box--small">
+              <i class="fa-brands fa-html5"></i>
+              <p>HTML5</p>
+            </div>
+            <div class="skills__box--small">
+              <i class="fa-brands fa-css3-alt"></i>
+              <p>CSS3</p>
+            </div>
+            <div class="skills__box--small">
+              <i class="fa-brands fa-bootstrap"></i>
+              <p>Bootstrap</p>
+            </div>
+            <div class="skills__box--small">
+              <i class="fa-brands fa-square-js"></i>
+              <p>JavaScript</p>
+            </div>
+            <div class="skills__box--small">
+              <i class="fa-brands fa-react"></i>
+              <p>React</p>
+            </div>
+            <div class="skills__box--small">
+              <i class="fa-brands fa-angular"></i>
+              <p>Angular</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <svg
+        class="wave-bottom"
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 1440 320"
+      >
+        <path
+          fill="#f9f8f8"
+          fill-opacity="1"
+          d="M0,0L60,10.7C120,21,240,43,360,74.7C480,107,600,149,720,144C840,139,960,85,1080,69.3C1200,53,1320,75,1380,85.3L1440,96L1440,0L1380,0C1320,0,1200,0,1080,0C960,0,840,0,720,0C600,0,480,0,360,0C240,0,120,0,60,0L0,0Z"
+        ></path>
+      </svg>
+
+      <section class="portfolio" id="portfolio">
+        <div>
+          <div>
+            <h2 class="portfolio__title">Portfolio</h2>
+          </div>
+        </div>
+        <div class="portfolio_container">
+          <!--Project 1-->
+          <div class="portfolio__card">
+            <a href="https://book-store-jholsas.vercel.app/">
+              <img
+                class="portfolio__img"
+                src="./img/book_store.png"
+                alt="Alura combo website project"
+              />
+            </a>
+            <h3 class="portfolio__project-title">Books Store</h3>
+            <div class="portfolio__card--stack">
+              <div class="portfolio__card--stack-description">
+                <i class="fa-brands fa-html5"></i>
+                <p>HTML5</p>
+              </div>
+              <div class="portfolio__card--stack-description">
+                <i class="fa-brands fa-css3-alt"></i>
+                <p>CSS3</p>
+              </div>
+            </div>
+            <p class="portfolio__project-text">
+              In this project, an e-commerce site was created for Alura Books,
+              an online technology bookstore. Using the mobile first methodology
+              and using a Figma project as a basis. This landing page is
+              designed for Smartphones, Tablets and Desktops.
+            </p>
+            <div class="portfolio__button">
+              <a href="https://book-store-jholsas.vercel.app/">
+                <dir class="portfolio__button--style">
+                  <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                  <p>live</p>
+                </dir>
+              </a>
+              <a href="https://github.com/Jholsas/book_store">
+                <dir class="portfolio__button--style">
+                  <i class="fa-brands fa-github"></i>
+                  <p>source</p>
+                </dir>
+              </a>
+            </div>
+          </div>
+
+          <!--Project 2-->
+          <div class="portfolio__card">
+            <a href="https://robotron-jholsas.vercel.app/">
+              <img
+                class="portfolio__img"
+                src="./img/webpage_js.png"
+                alt="Alura combo website project"
+              />
+            </a>
+            <h3 class="portfolio__project-title">webpage with JS</h3>
+            <div class="portfolio__card--stack">
+              <div class="portfolio__card--stack-description">
+                <i class="fa-brands fa-html5"></i>
+                <p>HTML5</p>
+              </div>
+              <div class="portfolio__card--stack-description">
+                <i class="fa-brands fa-css3-alt"></i>
+                <p>CSS3</p>
+              </div>
+              <div class="portfolio__card--stack-description">
+                <i class="fa-brands fa-square-js"></i>
+                <p>JAVASCRIPT</p>
+              </div>
+            </div>
+            <p class="portfolio__project-text">
+              A webpage where I was training JavaScript concepts. A landing page
+              is designed for desktops.
+            </p>
+            <div class="portfolio__button">
+              <a href="https://robotron-jholsas.vercel.app/">
+                <dir class="portfolio__button--style">
+                  <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                  <p>live</p>
+                </dir>
+              </a>
+              <a href="https://github.com/Jholsas/robotron">
+                <dir class="portfolio__button--style">
+                  <i class="fa-brands fa-github"></i>
+                  <p>source</p>
+                </dir>
+              </a>
+            </div>
+          </div>
+
+          <!--Project 3-->
+          <div class="portfolio__card">
+            <a href="https://aluraplus-jholsas.vercel.app/">
+              <img
+                class="portfolio__img"
+                src="./img/promo_page.png"
+                alt="Alura combo website project"
+              />
+            </a>
+            <h3 class="portfolio__project-title">Webpage</h3>
+            <div class="portfolio__card--stack">
+              <div class="portfolio__card--stack-description">
+                <i class="fa-brands fa-html5"></i>
+                <p>HTML5</p>
+              </div>
+              <div class="portfolio__card--stack-description">
+                <i class="fa-brands fa-css3-alt"></i>
+                <p>CSS3</p>
+              </div>
+            </div>
+            <p class="portfolio__project-text">
+              A website to promote Alura Plus, a streaming platform with Alura's
+              educational content. In this project, create a homepage of a Figma
+              project. A landing page is designed for desktops.
+            </p>
+            <div class="portfolio__button">
+              <a href="https://aluraplus-jholsas.vercel.app/">
+                <dir class="portfolio__button--style">
+                  <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                  <p>live</p>
+                </dir>
+              </a>
+              <a href="https://github.com/Jholsas/website_promote">
+                <dir class="portfolio__button--style">
+                  <i class="fa-brands fa-github"></i>
+                  <p>source</p>
+                </dir>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <svg
+        class="wave-top"
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 1440 320"
+      >
+        <path
+          fill="#f9f8f8"
+          fill-opacity="1"
+          d="M0,0L60,10.7C120,21,240,43,360,74.7C480,107,600,149,720,144C840,139,960,85,1080,69.3C1200,53,1320,75,1380,85.3L1440,96L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z"
+        ></path>
+      </svg>
+
+      <section class="contact_links">
+        <div class="contact" id="contact">
+          <div>
+            <h2 class="contact__title">contact</h2>
+          </div>
+          <div class="card_container">
+            <div class="contact__card">
+              <p contact__text>
+                Feel free to contact me. I will be delighted to hear from you.
+                Whether you have questions or want to chat about software
+                development and tech, shoot me a message.
+              </p>
+              <button class="contact__email-btn">
+                <a href="mailto: jholsas@gmail.com">jholsas@gmail.com</a>
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="links" id="links">
+          <div class="links__box">
+            <div class="links__box--small">
+              <a href="https://www.linkedin.com/in/joao-dos-santos-silva/">
+                <i class="fa-brands fa-linkedin"></i>
+                <p>LinkedIn</p>
+              </a>
+            </div>
+            <div class="links__box--small">
+              <a href="https://github.com/Jholsas">
+                <i class="fa-brands fa-github"></i>
+                <p>GitHub</p>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <div class="GoToTop" id="GoToTop">
+        <a href="#header">
+          <i class="fas fa-angle-double-up"></i>
+        </a>
       </div>
-    </section>
+    </main>
+    <footer class="footer">
+      <div class="footer__container">
+        <p>
+          Made with <i class="fa-solid fa-heart"></i> and
+          <i class="fa-solid fa-mug-hot"></i>, João Silva.
+        </p>
+        <p>Copyright <i class="fa-regular fa-copyright"></i>2023.</p>
+      </div>
+    </footer>
 
-    <div class="GoToTop" id="GoToTop">
-      <a href="#header">
-        <i class="fas fa-angle-double-up"></i>
-      </a>
-    </div>
-  </main>
-  <footer class="footer">
-    <div class="footer__container">
-      <p>
-        Made with <i class="fa-solid fa-heart"></i> and
-        <i class="fa-solid fa-mug-hot"></i>, João Silva.
-      </p>
-      <p>Copyright <i class="fa-regular fa-copyright"></i>2023.</p>
-    </div>
-  </footer>
-
-  <script type="module" src="./js/main.js"></script>
-</body>
-
+    <script type="module" src="./js/main.js"></script>
+  </body>
 </html>
